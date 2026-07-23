@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Amazon Clone</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Menu Bar -->
+
+<div class="panel">
+
+    <div class="panel-all">
+        <i class="fa-solid fa-bars"></i>
+        All
+    </div>
+
+    <div class="panel-options">
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+    </div>
+
+</div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+
+        <!-- Logo -->
+        <div class="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart (<span id="cart-count">0</span>)
+        </div>
+
+        <!-- Address -->
+        <div class="nav-address">
+            <p class="small">Deliver to</p>
+            <p class="big">
+                <i class="fa-solid fa-location-dot"></i> India
+            </p>
+        </div>
+
+        <!-- Search -->
+        <div class="nav-search">
+
+            <select>
+                <option>All</option>
+            </select>
+
+            <input type="text" placeholder="Search Amazon">
+
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <!-- Language -->
+        <div class="nav-language">
+            <i class="fa-solid fa-globe"></i> EN
+        </div>
+
+        <!-- Account -->
+        <div class="nav-signin">
+            <p class="small">Hello, Sign in</p>
+            <p class="big">Account & Lists</p>
+        </div>
+
+        <!-- Orders -->
+        <div class="nav-orders">
+            <p class="small">Returns</p>
+            <p class="big">& Orders</p>
+        </div>
+
+        <!-- Cart -->
+        <div class="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+
+    </div>
+
+</header>
+<!-- Hero Section -->
+
+<section class="hero">
+
+    <img src="images/banner1.jpg" class="slide active">
+    <img src="images/banner2.jpg" class="slide">
+    <img src="images/banner3.jpg" class="slide">
+    <img src="images/banner4.jpg" class="slide">
+
+</section>
+
+<section class="shop">
+
+    <div class="box">
+        <h2>Clothing & Accessories</h2>
+        <img src="images/box1.jpg" alt="">
+        <a href="#">See More</a>
+    </div>
+
+    <div class="box">
+        <h2>Daily Essentials</h2>
+        <img src="images/box2.jpg" alt="">
+        <a href="#">See More</a>
+    </div>
+
+    <div class="box">
+        <h2>Home Decor</h2>
+        <img src="images/box3.jpg" alt="">
+        <a href="#">See More</a>
+    </div>
+
+    <div class="box">
+        <h2>Electronics</h2>
+        <img src="images/box4.jpg" alt="">
+        <a href="#">See More</a>
+    </div>
+
+    <div class="box">
+        <h2>Beauty Picks</h2>
+        <img src="images/box5.jpg" alt="">
+        <a href="#">See More</a>
+    </div>
+
+    <div class="box">
+        <h2>Pet Supplies</h2>
+        <img src="images/box6.jpg" alt="">
+        <a href="#">See More</a>
+    </div>
+
+    <div class="box">
+        <h2>Toys & Games</h2>
+        <img src="images/box7.jpg" alt="">
+        <a href="#">See More</a>
+    </div>
+
+    <div class="box">
+        <h2>Fashion Deals</h2>
+        <img src="images/box8.jpg" alt="">
+        <a href="#">See More</a>
+    </div>
+
+</section>
+
+<!-- Today's Deals -->
+
+<section class="deals">
+
+    <h2>Today's Deals</h2>
+
+    <div class="deal-container">
+
+        <div class="deal-card">
+            <img src="images/deal1.jpg" alt="">
+            <span class="discount">40% OFF</span>
+            <p>Wireless Headphones</p>
+            <h4>₹1,999</h4>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="deal-card">
+            <img src="images/deal2.jpg" alt="">
+            <span class="discount">55% OFF</span>
+            <p>Smart Watch</p>
+            <h4>₹2,499</h4>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="deal-card">
+            <img src="images/deal3.jpg" alt="">
+            <span class="discount">30% OFF</span>
+            <p>Bluetooth Speaker</p>
+            <h4>₹1,299</h4>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="deal-card">
+            <img src="images/deal4.jpg" alt="">
+            <span class="discount">65% OFF</span>
+            <p>Gaming Mouse</p>
+            <h4>₹799</h4>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="deal-card">
+            <img src="images/deal5.jpg" alt="">
+            <span class="discount">45% OFF</span>
+            <p>Power Bank</p>
+            <h4>₹999</h4>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="back-top">
+        Back to Top
+    </div>
+
+    <div class="footer-links">
+
+        <div>
+            <h3>Get to Know Us</h3>
+            <p>About Amazon</p>
+            <p>Careers</p>
+            <p>Press Releases</p>
+            <p>Amazon Science</p>
+        </div>
+
+        <div>
+            <h3>Connect with Us</h3>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+        </div>
+
+        <div>
+            <h3>Make Money with Us</h3>
+            <p>Sell on Amazon</p>
+            <p>Affiliate Program</p>
+            <p>Advertise Products</p>
+        </div>
+
+        <div>
+            <h3>Let Us Help You</h3>
+            <p>Your Account</p>
+            <p>Returns Centre</p>
+            <p>Help</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Amazon Clone. All Rights Reserved.
+    </div>
+
+</footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
